@@ -1,0 +1,39 @@
+
+body{
+ text-align: center;
+}
+table{
+    margin: auto;
+    /* border-left: 20%; */
+}
+table,th,td{
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+td{
+    border: 0.063rem solid #000000;
+    text-align: left;
+    padding: 0.0625rem 1.25rem;
+    width: .25rem;
+    height: 2rem;
+    left: 1rem;
+    top: 0.9rem;
+    color: #000000;
+
+}
+th{
+    text-align: left;
+    padding: 0.0625rem 1.25rem;
+    width: 7rem;
+    height:2rem ;
+    border: 0.063rem solid #000000;
+    border-collapse:collapse;
+    color: #000000;
+
+}
+   
+   
+
+
+
+
