@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Halant:wght@300;400;500;600;700&family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Form.css">
+    <link rel="shortcut icon" href="favicon.jpg" type="image/x-icon">
+</head>
+
+<body>
+
+        <h1>Contact Form</h1>
+        <form action="=">
+            <div class="Contact">
+                <label for="name">Name:</label>
+                <input class="input" type="text" id="Name" placeholder="Enter your name" required>
+            </div>
+            <br>
+            <div class="Contact">
+                <label for="name">Username:</label>
+                <input class="input" type="username" id="Name" placeholder="Enter your username" required>
+            </div>
+            <br>
+            <div class="Contact">
+                <label for="name">Password:</label>
+                <input class="input" type="password" id="password" placeholder="Enter your password" required>
+            </div>
+            <br>
+            <div class="Contact">
+                <label for="name">Re-type Passsword:</label>
+                <input class="input" type="password" id="Re-password" placeholder="Enter your password" required>
+            </div>
+            <br>
+            
+            <div class="Contact">
+                <label for="Gender">Gender</label>
+
+                <div class="radio">
+                    <input type="radio" id="Male" value="Male" required>
+                    <label class="manrope" for="">Male</label>
+                    <input type="radio" id="Female" value="Female" required>
+                    <label class="manrope" for="">Female</label>
+                </div>
+
+            </div>
+            <br>
+
+            <div class="Contact">
+                <label for="">Techie skills: </label>
+
+                <div class="checkbox">
+                   <input type="checkbox" id="html" value="html" required> 
+                   <label class="manrope" for="">HTML</label>
+                   <input type="checkbox" id="css" value="css" required> 
+                   <label class="manrope" for="">CSS</label>
+                   <input type="checkbox" id="Javascript" value="Javascript" required> 
+                   <label class="manrope" for="">JavaScript</label>
+                </div>
+                
+            </div>
+            <br>
+            <div class="Contact">
+                <label for="number">Phone Number:</label>
+                <input class="input" type="number" id="Phone" placeholder="Enter your address" required>
+            </div>
+            <br>
+            <div class="Contact">
+                <label for="email">Email:</label>
+                <input class="input" type="email" id="email" placeholder="Enter your Email address" required>
+            </div>
+            <br>
+            <div class="Contact">
+                <label for="college">College:</label>
+                <select name="Colleges" id="college" required>
+                    <option value="" default selected hidden>Select a College</option>
+                    <option value="">Oxford University</option>
+                    <option value="">Convenant University</option>
+                    <option value="">MIT</option>
+                </select>
+               
+            </div>
+            <br>
+            <div class="button">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+
+    
+    
+    
+
+</body>
+
+</html>

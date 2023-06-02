@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    size: 50%;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.input {
+    width: 60%;
+    border: 1px solid #828282;
+    border-radius: 0.25rem;
+    padding: 0.75rem;
+
+}
+
+label {
+    width: 40%;
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.75rem;
+    color: #000000;
+}
+
+.manrope {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color: #000000;
+
+}
+
+.Contact {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.25rem;
+    align-items: center;
+}
+
+.checkbox {
+    width: 60%;
+}
+
+.radio {
+    width: 60%;
+}
+
+select {
+    width: 60%;
+    justify-content: end;
+    border: 1px solid #828282;
+    border-radius: 0.25rem;
+    padding: 0.75rem;
+    
+}
+
+button {
+    border: 0.063rem solid;
+    /* background-color: aqua; */
+    background: #155EEF;
+    color: white;
+    font-family: 'Manrope';
+    padding: 8px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #FFFFFF;
+    width: 60%;
+}
+
+.button {
+    
+    display: flex;
+    justify-content: flex-end;
+}
